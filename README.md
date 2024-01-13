@@ -1,2 +1,2 @@
 # ESTUDOS_-C-C--
- Estudos em C e C++ pela Udemy
+ Estudos introdutórios em C e C++ pela _Udemy_.
