@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 void main(){
- //comentário
+ //Imprime 'Olá mundo' na tela.
  printf("Olá mundo");
+
 }
