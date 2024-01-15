@@ -2,6 +2,10 @@
 #include <stdlib.h>
 #include <locale.h>
 
+ //Crie um algoritmo que leia 3 notas e calcule a média entre elas.
+    //Se o valor for maior que 7 informe que o aluno foi aprovado,
+    //senão foi reprovado.
+
 void main(){
     setlocale(LC_ALL, "");
     float n1, n2, n3, media;
