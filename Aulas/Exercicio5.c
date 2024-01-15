@@ -13,15 +13,15 @@ void main(){
     scanf("%d", &ladoB);
     printf("Informe o comprimento do lado C: ");
     scanf("%d", &ladoC);
-
+    printf("\n");
     if (ladoA == ladoB && ladoB == ladoC){
-        printf("\nO triângulo é equilátero");
+        printf("O triângulo é equilátero");
     }
     else if (ladoA == ladoB || ladoA == ladoC || ladoB == ladoC){
-        printf("\nO triângulo é isósceles");
+        printf("O triângulo é isósceles");
     }
     else{
-        printf("\nO triângulo é escaleno");
+        printf("O triângulo é escaleno");
     }
     printf("\n");
 system("pause");
