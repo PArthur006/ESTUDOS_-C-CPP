@@ -10,7 +10,7 @@ void main(){
     scanf("%f", &n1);
     printf("\nDIgite outro número: ");
     scanf("%f", &n2);
-    resultado = abs(n1 - n2); //Utiliza o comando 'abs' para mostrar o valor absoluto da diferença entre os números.
+    resultado = abs(n1 - n2); //Utiliza o comando 'abs' para mostrar a diferença absoluita entre os números.
     printf("\nA diferença absoluta entre %.2f e %.2f é %.2f", n1, n2, resultado);
     system("pause");
 }
