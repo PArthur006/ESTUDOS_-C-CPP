@@ -1,2 +1,2 @@
 # ESTUDOS_-C-C--
- Estudos introdutórios em C e C++ pela _Udemy_.
+ Esses são os exercícios propostos, e seus respectivos códigos, do _"Curso Completo de Linguagem C e C++ - Iniciante Ao Avançado"_ , ofertado pela _Udemy_.
