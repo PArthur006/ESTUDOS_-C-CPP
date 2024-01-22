@@ -1,54 +1,55 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <locale.h>
 #include <string>
 #include <iostream>
 
 using namespace std;
 
-    /*Escreva um programa que contenha duas variï¿½veis inteiras.
-    Compare seus endereï¿½os e exiba o maior endereï¿½o.*/
+    /*Escreva um programa que contenha duas variáveis inteiras.
+    Compare seus endereços e exiba o maior endereço.*/
 
 int main(){
 
     setlocale(LC_ALL, "");
 
-    //Declarando as variï¿½veis e os ponteiros.
+    //Declarando as variáveis e os ponteiros.
     int a = 10, b = 20, *pontA, *pontB;
 
-    //Atribuindo os endereï¿½os das variï¿½veis aos ponteiros.
+    //Atribuindo os endereços das variáveis aos ponteiros.
     pontA = &a;
     pontB = &b;
 
-    //Imprimindo os endereï¿½os na tela.
-    printf("\nO endereï¿½o de A ï¿½ = %d", &a);
-    printf("\nO endereï¿½o de B ï¿½ = %d", &b);
+    //Imprimindo os endereços na tela.
+    printf("\nO endereço de A é = %d", &a);
+    printf("\nO endereço de B é = %d", &b);
 
     printf("\n");
 
-    //Condicional que verifica qual dos dois endereï¿½os ï¿½ maior e imprime na tela.
+    //Condicional que verifica qual dos dois endereços é maior e imprime na tela.
     if (&a > &b){
-        printf("\nO maior endereï¿½o ï¿½ o de A, que vale %d", pontA);
+        printf("\nO maior endereço é o de A, que vale %d", pontA);
     }
     else{
-        printf("\nO maior endereï¿½o ï¿½ o de B, que vale %d", pontB);
+        printf("\nO maior endereço é o de B, que vale %d", pontB);
     }
     printf("\n");
 
-    //Cï¿½digo em C++.
+    //Código em C++.
 
-    //Declarando as variï¿½veis e os ponteiros.
+    //Declarando as variáveis e os ponteiros.
     int c = 30, d = 40, *pontC, *pontD;
 
-    //Imprimindo os endereï¿½os na tela.
-    cout << "\nO endereï¿½o de C ï¿½ = " << &c;
-    cout << "\nO endereï¿½o de D ï¿½ = " << &d;
+    //Imprimindo os endereços na tela.
+    cout << "\nO endereço de C é = " << &c;
+    cout << "\nO endereço de D é = " << &d;
 
-    //Condicional que verifica qual dos dois endereï¿½os ï¿½ maior e imprime na tela.
+    //Condicional que verifica qual dos dois endereços é maior e imprime na tela.
     if (pontC < pontD){
-        cout << "\nO maior endereï¿½o ï¿½ o de D, que vale " << &d;
+        cout << "\nO maior endereço é o de D, que vale " << &d;
     }
     else{
-        cout << "\nO maior endereï¿½o ï¿½ o de C, que vale " << &c;
+        cout << "\nO maior endereço é o de C, que vale " << &c;
     }
 
     return 0;
