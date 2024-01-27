@@ -8,8 +8,9 @@ Elaborar um programa que leia dois valores inteiros(A e B).Em seguida faça uma f
 que retorne a soma do dobro dos dois núumeros lidos.A função deverá armazenar o dobro
 de A na própria variável A e o dobro de B na própria variável B.
 */
+int SomaDobro(n1, n2);
 
-int main(){
+void main(){
     setlocale(LC_ALL, "");
 
     int a, b, *pA, *pB;
@@ -18,13 +19,14 @@ int main(){
     scanf("%d", &a);
     printf("Digite o segundo valor: ");
     scanf("%d", &b);
-
-    a = a * 2;
-    b = b * 2;
     pA = &a;
     pB = &b;
 
-    printf("A soma do dobro dos dois números lidos é = %d", *pA + *pB);
+    printf("A soma do dobro dos dois números lidos é = %d", SomaDobro(*pA, *pB));
+}
 
-    return 0;
+int SomaDobro(n1, n2){
+    n1 *= 2;
+    n2 *= 2;
+    return n1 + n2;
 }
